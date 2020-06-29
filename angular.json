@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "material-angular-dashboard"
+    }
+  },
+  "defaultProject": "material-angular-dashboard",
+  "cli": {
+    "analytics": "e7986fe6-59cd-43ad-a52c-8e91626399aa"
+  }
 }
