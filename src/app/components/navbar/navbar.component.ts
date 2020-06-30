@@ -55,8 +55,6 @@ export class NavbarComponent implements OnInit {
       body.classList.remove('nav-open');
   };
   sidebarToggle() {
-      // const toggleButton = this.toggleButton;
-      // const body = document.getElementsByTagName('body')[0];
       var $toggle = document.getElementsByClassName('navbar-toggler')[0];
 
       if (this.sidebarVisible === false) {
@@ -67,7 +65,6 @@ export class NavbarComponent implements OnInit {
       const body = document.getElementsByTagName('body')[0];
 
       if (this.mobileMenuVisible == 1) {
-          // $('html').removeClass('nav-open');
           body.classList.remove('nav-open');
           if ($layer) {
               $layer.remove();
